@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240d86d-44d7-4a9f-a5e3-d95ac9dbaaaf" name="更改" comment="hgcgh">
+    <list default="true" id="d240d86d-44d7-4a9f-a5e3-d95ac9dbaaaf" name="更改" comment="欢迎页面">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +133,7 @@
       <workItem from="1782375726837" duration="3873000" />
       <workItem from="1782381349768" duration="1776000" />
       <workItem from="1782391977115" duration="2476000" />
-      <workItem from="1782568694134" duration="3642000" />
+      <workItem from="1782568694134" duration="4766000" />
     </task>
     <task id="LOCAL-00001" summary="hgcgh">
       <option name="closed" value="true" />
@@ -191,7 +191,39 @@
       <option name="project" value="LOCAL" />
       <updated>1782614691286</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hgcgh">
+      <option name="closed" value="true" />
+      <created>1782619121467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1782619121467</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hgcgh">
+      <option name="closed" value="true" />
+      <created>1782619232702</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1782619232702</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hgcgh">
+      <option name="closed" value="true" />
+      <created>1782619414083</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1782619414083</updated>
+    </task>
+    <task id="LOCAL-00011" summary="欢迎页面">
+      <option name="closed" value="true" />
+      <created>1782619453822</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1782619453822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +258,7 @@
     </ignored-roots>
     <MESSAGE value="141" />
     <MESSAGE value="hgcgh" />
-    <option name="LAST_COMMIT_MESSAGE" value="hgcgh" />
+    <MESSAGE value="欢迎页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="欢迎页面" />
   </component>
 </project>
