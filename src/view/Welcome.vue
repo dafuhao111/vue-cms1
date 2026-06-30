@@ -4,7 +4,7 @@
 
 <template>
   <div class="welcome">
-    <h2>欢迎页面seGES</h2>
+    <h2>欢迎页面s</h2>
     <p>
       <a href="http://localhost:5176" target="_blank" rel="noopener noreferrer">前往学院官网</a>
     </p>
