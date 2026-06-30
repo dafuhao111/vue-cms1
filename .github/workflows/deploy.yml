@@ -35,7 +35,7 @@ jobs:
           find . -mindepth 1 -delete 2>/dev/null || true
           
           echo "Cloning frontend repository via SSH..."
-          git clone --depth 1 -b main git@github.com:dafuhao111/school-website.git .
+          git clone --depth 1 -b main git@github.com:dafuhao111/vue-cms1.git .
 
       # ========================================================
       # 阶段二：前端核心文件 MD5 指纹检测（强壮防错版）

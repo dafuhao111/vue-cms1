@@ -6,7 +6,7 @@
   <div class="welcome">
     <h2>欢迎页面seGES</h2>
     <p>
-      <a href="http://localhost:5174" target="_blank" rel="noopener noreferrer">前往学院官网</a>
+      <a href="http://localhost:5176" target="_blank" rel="noopener noreferrer">前往学院官网</a>
     </p>
   </div>
 </template>
