@@ -32,7 +32,7 @@
           <template #default="{ row }">
             <el-button type="primary" size="small" @click="openRoleDialog(row)">编辑</el-button>
             <el-button type="success" size="small" @click="handleAuthorize(row)">授权</el-button>
-            <el-button type="danger" size="small" :loading="deletingIds.includes(row.id)" @click="handleDelete(row)">删除</el-button>
+            <el-button v-if="hasPermission('role:delete')" type="danger" size="small" :loading="deletingIds.includes(row.id)" @click="handleDelete(row)">删除</el-button>
           </template>
         </el-table-column>
       </el-table>
@@ -124,6 +124,7 @@ import {
   getRolePermissionIds,
   updateRole
 } from '@/http/role.ts'
+import {hasPermission} from '@/util/permission.ts'
 
 interface RoleItem {
   id: number

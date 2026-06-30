@@ -11,7 +11,7 @@
 
     <div class="list-panel">
       <el-form :model="queryForm" inline class="query-form">
-        <el-form-item label="用户名">
+        <el-form-item label="用户名asf">
           <el-input
               v-model="queryForm.username"
               clearable
