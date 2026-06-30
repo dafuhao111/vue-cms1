@@ -21,7 +21,7 @@ on:
 jobs:
   deploy-vue:
     # 指定由打上了 vue-builder 标签的前端专用自托管 Runner 执行此任务
-    runs-on: [self-hosted, vue-builder]
+    runs-on: [self-hosted, Linux, x64]
 
     steps:
       # =========================================================
