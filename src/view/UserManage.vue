@@ -357,7 +357,7 @@ onMounted(() => {
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto;
   gap: 12px;
-  padding: 16px;
+  padding: 15px;
   background: #fff;
   border: 1px solid #e5e6eb;
   border-radius: 8px;
