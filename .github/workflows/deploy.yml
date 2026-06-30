@@ -21,10 +21,10 @@ on:
 jobs:
   deploy-vue:
     # 指定由打上了 vue-builder 标签的前端专用自托管 Runner 执行此任务
-    runs-on: [self-hosted, Linux, X64]
+    runs-on: [self-hosted, vue-builder]
 
     steps:
-      # ========================================================
+      # =========================================================
       # 阶段一：原生 Git 安全拉取，绕过 Node 环境干扰
       # =========================================================
       - name: Native Git Checkout with SSH
@@ -35,11 +35,11 @@ jobs:
           find . -mindepth 1 -delete 2>/dev/null || true
           
           echo "Cloning frontend repository via SSH..."
-          git clone --depth 1 -b main git@github.com:dafuhao111/school-website.git .
+          git clone --depth 1 -b main git@github.com:dafuhao/vue-cms1.git .
 
-      # ========================================================
+      # =========================================================
       # 阶段二：前端核心文件 MD5 指纹检测（强壮防错版）
-      # ==================================================
+      # =========================================================
       - name: Frontend MD5 Fingerprint Detection
         id: filter
         run: |
